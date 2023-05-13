@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Form</h1>
+        <form class="formHolder"> 
+            <label for="country">Country</label>
+            <select onchange="render()" type="text" id="country">
+                <option value="" selected disabled>--Select-Value--</option>
+            </select>
+            
+            <label for="state">State</label>
+            <select onchange="render()" type="text" id="state">
+                <option value="" selected disabled>--Select-Value--</option>
+            </select>
+            
+            <label for="location">Location</label>
+            <select onchange="render()" type="text" id="location">
+                <option value="" selected disabled>--Select-Value--</option>
+            </select>
+
+            <button type="submit" class = "formSubmitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
